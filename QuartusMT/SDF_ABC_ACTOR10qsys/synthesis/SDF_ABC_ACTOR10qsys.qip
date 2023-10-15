@@ -1,0 +1,294 @@
+set_global_assignment -entity "SDF_ABC_ACTOR10qsys" -library "SDF_ABC_ACTOR10qsys" -name IP_TOOL_NAME "Qsys"
+set_global_assignment -entity "SDF_ABC_ACTOR10qsys" -library "SDF_ABC_ACTOR10qsys" -name IP_TOOL_VERSION "22.1"
+set_global_assignment -entity "SDF_ABC_ACTOR10qsys" -library "SDF_ABC_ACTOR10qsys" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SOPCINFO_FILE [file join $::quartus(qip_path) "../../SDF_ABC_ACTOR10qsys.sopcinfo"]
+set_global_assignment -entity "SDF_ABC_ACTOR10qsys" -library "SDF_ABC_ACTOR10qsys" -name SLD_INFO "QSYS_NAME SDF_ABC_ACTOR10qsys HAS_SOPCINFO 1 GENERATION_ID 1697411671"
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name MISC_FILE [file join $::quartus(qip_path) "../SDF_ABC_ACTOR10qsys.cmp"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SLD_FILE [file join $::quartus(qip_path) "SDF_ABC_ACTOR10qsys.debuginfo"]
+set_global_assignment -entity "SDF_ABC_ACTOR10qsys" -library "SDF_ABC_ACTOR10qsys" -name IP_TARGETED_DEVICE_FAMILY "Cyclone V"
+set_global_assignment -entity "SDF_ABC_ACTOR10qsys" -library "SDF_ABC_ACTOR10qsys" -name IP_GENERATED_DEVICE_FAMILY "{Cyclone V}"
+set_global_assignment -entity "SDF_ABC_ACTOR10qsys" -library "SDF_ABC_ACTOR10qsys" -name IP_QSYS_MODE "SYSTEM"
+set_global_assignment -name SYNTHESIS_ONLY_QIP ON
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name MISC_FILE [file join $::quartus(qip_path) "../../SDF_ABC_ACTOR10qsys.qsys"]
+set_global_assignment -entity "SDF_ABC_ACTOR10qsys" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_NAME "U0RGX0FCQ19BQ1RPUjEwcXN5cw=="
+set_global_assignment -entity "SDF_ABC_ACTOR10qsys" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_DISPLAY_NAME "U0RGX0FCQ19BQ1RPUjEwcXN5cw=="
+set_global_assignment -entity "SDF_ABC_ACTOR10qsys" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_REPORT_HIERARCHY "On"
+set_global_assignment -entity "SDF_ABC_ACTOR10qsys" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "SDF_ABC_ACTOR10qsys" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_VERSION "MS4w"
+set_global_assignment -entity "SDF_ABC_ACTOR10qsys" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_PARAMETER "QVVUT19HRU5FUkFUSU9OX0lE::MTY5NzQxMTY3MQ==::QXV0byBHRU5FUkFUSU9OX0lE"
+set_global_assignment -entity "SDF_ABC_ACTOR10qsys" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfRkFNSUxZ::Q3ljbG9uZSBW::QXV0byBERVZJQ0VfRkFNSUxZ"
+set_global_assignment -entity "SDF_ABC_ACTOR10qsys" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0U=::NUNTRUJBNlUyM0k3::QXV0byBERVZJQ0U="
+set_global_assignment -entity "SDF_ABC_ACTOR10qsys" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfU1BFRURHUkFERQ==::Nw==::QXV0byBERVZJQ0VfU1BFRURHUkFERQ=="
+set_global_assignment -entity "SDF_ABC_ACTOR10qsys" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfQ0xPQ0tfUkFURQ==::LTE=::QXV0byBDTE9DS19SQVRF"
+set_global_assignment -entity "SDF_ABC_ACTOR10qsys" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfQ0xPQ0tfRE9NQUlO::LTE=::QXV0byBDTE9DS19ET01BSU4="
+set_global_assignment -entity "SDF_ABC_ACTOR10qsys" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfUkVTRVRfRE9NQUlO::LTE=::QXV0byBSRVNFVF9ET01BSU4="
+set_global_assignment -entity "altera_reset_controller" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_NAME "YWx0ZXJhX3Jlc2V0X2NvbnRyb2xsZXI="
+set_global_assignment -entity "altera_reset_controller" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_DISPLAY_NAME "TWVybGluIFJlc2V0IENvbnRyb2xsZXI="
+set_global_assignment -entity "altera_reset_controller" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "altera_reset_controller" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "altera_reset_controller" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_AUTHOR "QWx0ZXJhIENvcnBvcmF0aW9u"
+set_global_assignment -entity "altera_reset_controller" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_VERSION "MjIuMQ=="
+set_global_assignment -entity "altera_reset_controller" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_DESCRIPTION "Rm9yIHN5c3RlbXMgd2l0aCBtdWx0aXBsZSByZXNldCBpbnB1dHMsIHRoZSBNZXJsaW4gUmVzZXQgQ29udHJvbGxlciBPUnMgYWxsIHJlc2V0IGlucHV0cyBhbmQgZ2VuZXJhdGVzIGEgc2luZ2xlIHJlc2V0IG91dHB1dC4="
+set_global_assignment -entity "altera_reset_controller" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_PARAMETER "TlVNX1JFU0VUX0lOUFVUUw==::MQ==::TnVtYmVyIG9mIGlucHV0cw=="
+set_global_assignment -entity "altera_reset_controller" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_PARAMETER "T1VUUFVUX1JFU0VUX1NZTkNfRURHRVM=::ZGVhc3NlcnQ=::T3V0cHV0IFJlc2V0IFN5bmNocm9ub3VzIEVkZ2Vz"
+set_global_assignment -entity "altera_reset_controller" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_PARAMETER "U1lOQ19ERVBUSA==::Mg==::U3luY2hyb25pemVyIGRlcHRo"
+set_global_assignment -entity "altera_reset_controller" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_PARAMETER "UkVTRVRfUkVRVUVTVF9QUkVTRU5U::MA==::UmVzZXQgcmVxdWVzdCBsb2dpYyBlbmFibGU="
+set_global_assignment -entity "altera_reset_controller" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_PARAMETER "UkVTRVRfUkVRX1dBSVRfVElNRQ==::MQ==::UmVzZXQgcmVxdWVzdCB3YWl0IHRpbWU="
+set_global_assignment -entity "altera_reset_controller" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_PARAMETER "TUlOX1JTVF9BU1NFUlRJT05fVElNRQ==::Mw==::TWluaW11bSByZXNldCBhc3NlcnRpb24gdGltZQ=="
+set_global_assignment -entity "altera_reset_controller" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_PARAMETER "UkVTRVRfUkVRX0VBUkxZX0RTUlRfVElNRQ==::MQ==::UmVzZXQgcmVxdWVzdCBkZWFzc2VydCB0aW1pbmc="
+set_global_assignment -entity "altera_reset_controller" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_PARAMETER "VVNFX1JFU0VUX1JFUVVFU1RfSU4w::MA==::RW5hYmxlIHJlc2V0X3JlcSBmb3IgcG9ydCByZXNldF9pbjA="
+set_global_assignment -entity "altera_reset_controller" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_PARAMETER "VVNFX1JFU0VUX1JFUVVFU1RfSU4x::MA==::RW5hYmxlIHJlc2V0X3JlcSBmb3IgcG9ydCByZXNldF9pbjE="
+set_global_assignment -entity "altera_reset_controller" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_PARAMETER "VVNFX1JFU0VUX1JFUVVFU1RfSU4y::MA==::RW5hYmxlIHJlc2V0X3JlcSBmb3IgcG9ydCByZXNldF9pbjI="
+set_global_assignment -entity "altera_reset_controller" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_PARAMETER "VVNFX1JFU0VUX1JFUVVFU1RfSU4z::MA==::RW5hYmxlIHJlc2V0X3JlcSBmb3IgcG9ydCByZXNldF9pbjM="
+set_global_assignment -entity "altera_reset_controller" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_PARAMETER "VVNFX1JFU0VUX1JFUVVFU1RfSU40::MA==::RW5hYmxlIHJlc2V0X3JlcSBmb3IgcG9ydCByZXNldF9pbjQ="
+set_global_assignment -entity "altera_reset_controller" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_PARAMETER "VVNFX1JFU0VUX1JFUVVFU1RfSU41::MA==::RW5hYmxlIHJlc2V0X3JlcSBmb3IgcG9ydCByZXNldF9pbjU="
+set_global_assignment -entity "altera_reset_controller" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_PARAMETER "VVNFX1JFU0VUX1JFUVVFU1RfSU42::MA==::RW5hYmxlIHJlc2V0X3JlcSBmb3IgcG9ydCByZXNldF9pbjY="
+set_global_assignment -entity "altera_reset_controller" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_PARAMETER "VVNFX1JFU0VUX1JFUVVFU1RfSU43::MA==::RW5hYmxlIHJlc2V0X3JlcSBmb3IgcG9ydCByZXNldF9pbjc="
+set_global_assignment -entity "altera_reset_controller" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_PARAMETER "VVNFX1JFU0VUX1JFUVVFU1RfSU44::MA==::RW5hYmxlIHJlc2V0X3JlcSBmb3IgcG9ydCByZXNldF9pbjg="
+set_global_assignment -entity "altera_reset_controller" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_PARAMETER "VVNFX1JFU0VUX1JFUVVFU1RfSU45::MA==::RW5hYmxlIHJlc2V0X3JlcSBmb3IgcG9ydCByZXNldF9pbjk="
+set_global_assignment -entity "altera_reset_controller" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_PARAMETER "VVNFX1JFU0VUX1JFUVVFU1RfSU4xMA==::MA==::RW5hYmxlIHJlc2V0X3JlcSBmb3IgcG9ydCByZXNldF9pbjEw"
+set_global_assignment -entity "altera_reset_controller" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_PARAMETER "VVNFX1JFU0VUX1JFUVVFU1RfSU4xMQ==::MA==::RW5hYmxlIHJlc2V0X3JlcSBmb3IgcG9ydCByZXNldF9pbjEx"
+set_global_assignment -entity "altera_reset_controller" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_PARAMETER "VVNFX1JFU0VUX1JFUVVFU1RfSU4xMg==::MA==::RW5hYmxlIHJlc2V0X3JlcSBmb3IgcG9ydCByZXNldF9pbjEy"
+set_global_assignment -entity "altera_reset_controller" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_PARAMETER "VVNFX1JFU0VUX1JFUVVFU1RfSU4xMw==::MA==::RW5hYmxlIHJlc2V0X3JlcSBmb3IgcG9ydCByZXNldF9pbjEz"
+set_global_assignment -entity "altera_reset_controller" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_PARAMETER "VVNFX1JFU0VUX1JFUVVFU1RfSU4xNA==::MA==::RW5hYmxlIHJlc2V0X3JlcSBmb3IgcG9ydCByZXNldF9pbjE0"
+set_global_assignment -entity "altera_reset_controller" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_PARAMETER "VVNFX1JFU0VUX1JFUVVFU1RfSU4xNQ==::MA==::RW5hYmxlIHJlc2V0X3JlcSBmb3IgcG9ydCByZXNldF9pbjE1"
+set_global_assignment -entity "altera_reset_controller" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_PARAMETER "VVNFX1JFU0VUX1JFUVVFU1RfSU5QVVQ=::MA==::RW5hYmxlIHJlc2V0X3JlcSBmb3IgcmVzZXRfaW5wdXRz"
+set_global_assignment -entity "altera_reset_controller" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_PARAMETER "QURBUFRfUkVTRVRfUkVRVUVTVA==::MA==::T25seSBhZGFwdCBvbmx5IHJlc2V0IHJlcXVlc3Q="
+set_global_assignment -entity "SDF_ABC_ACTOR10qsys_ACTOR10_0" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_NAME "U0RGX0FCQ19BQ1RPUjEwcXN5c19BQ1RPUjEwXzA="
+set_global_assignment -entity "SDF_ABC_ACTOR10qsys_ACTOR10_0" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_DISPLAY_NAME "U0RGX0FCQ19BQ1RPUjEw"
+set_global_assignment -entity "SDF_ABC_ACTOR10qsys_ACTOR10_0" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_REPORT_HIERARCHY "On"
+set_global_assignment -entity "SDF_ABC_ACTOR10qsys_ACTOR10_0" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "SDF_ABC_ACTOR10qsys_ACTOR10_0" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_VERSION "MS4w"
+set_global_assignment -entity "SDF_ABC_ACTOR10qsys_ACTOR10_0" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_PARAMETER "QVVUT19HRU5FUkFUSU9OX0lE::MTY5NzQxMTY3MQ==::QXV0byBHRU5FUkFUSU9OX0lE"
+set_global_assignment -entity "SDF_ABC_ACTOR10qsys_ACTOR10_0" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_PARAMETER "QVVUT19VTklRVUVfSUQ=::U0RGX0FCQ19BQ1RPUjEwcXN5c19BQ1RPUjEwXzA=::QXV0byBVTklRVUVfSUQ="
+set_global_assignment -entity "SDF_ABC_ACTOR10qsys_ACTOR10_0" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfRkFNSUxZ::Q3ljbG9uZSBW::QXV0byBERVZJQ0VfRkFNSUxZ"
+set_global_assignment -entity "SDF_ABC_ACTOR10qsys_ACTOR10_0" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0U=::NUNTRUJBNlUyM0k3::QXV0byBERVZJQ0U="
+set_global_assignment -entity "SDF_ABC_ACTOR10qsys_ACTOR10_0" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfU1BFRURHUkFERQ==::Nw==::QXV0byBERVZJQ0VfU1BFRURHUkFERQ=="
+set_global_assignment -entity "SDF_ABC_ACTOR10qsys_ACTOR10_0" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_PARAMETER "QVVUT19DTE9DS19DTE9DS19SQVRF::NTAwMDAwMDA=::QXV0byBDTE9DS19SQVRF"
+set_global_assignment -entity "SDF_ABC_ACTOR10qsys_ACTOR10_0" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_PARAMETER "QVVUT19DTE9DS19DTE9DS19ET01BSU4=::MQ==::QXV0byBDTE9DS19ET01BSU4="
+set_global_assignment -entity "SDF_ABC_ACTOR10qsys_ACTOR10_0" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_PARAMETER "QVVUT19DTE9DS19SRVNFVF9ET01BSU4=::MQ==::QXV0byBSRVNFVF9ET01BSU4="
+set_instance_assignment -entity "SDF_ABC_ACTOR10_internal" -library "SDF_ABC_ACTOR10qsys" -name AUTO_SHIFT_REGISTER_RECOGNITION OFF -to *_NO_SHIFT_REG*
+set_global_assignment -entity "SDF_ABC_ACTOR10_internal" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_NAME "U0RGX0FCQ19BQ1RPUjEwX2ludGVybmFs"
+set_global_assignment -entity "SDF_ABC_ACTOR10_internal" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_DISPLAY_NAME "U0RGX0FCQ19BQ1RPUjEwX2ludGVybmFs"
+set_global_assignment -entity "SDF_ABC_ACTOR10_internal" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "SDF_ABC_ACTOR10_internal" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_INTERNAL "On"
+set_global_assignment -entity "SDF_ABC_ACTOR10_internal" -library "SDF_ABC_ACTOR10qsys" -name IP_COMPONENT_VERSION "MS4w"
+
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name VERILOG_FILE [file join $::quartus(qip_path) "SDF_ABC_ACTOR10qsys.v"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_reset_controller.v"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_reset_synchronizer.v"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SDC_FILE [file join $::quartus(qip_path) "submodules/altera_reset_controller.sdc"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10qsys_ACTOR10_0.v"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/dspba_library_ver.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/acl_ecc_pkg.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/acl_data_fifo.v"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/acl_fifo.v"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/acl_altera_syncram_wrapped.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/acl_scfifo_wrapped.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/acl_ecc_decoder.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/acl_ecc_encoder.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/acl_ll_fifo.v"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/acl_ll_ram_fifo.v"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/acl_valid_fifo_counter.v"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/acl_dspba_valid_fifo_counter.v"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/acl_staging_reg.v"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/hld_fifo.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/acl_mid_speed_fifo.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/acl_latency_one_ram_fifo.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/acl_latency_zero_ram_fifo.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/hld_fifo_zero_width.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/acl_high_speed_fifo.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/acl_low_latency_fifo.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/acl_zero_latency_fifo.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/acl_fanout_pipeline.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/acl_std_synchronizer_nocut.v"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/acl_tessellated_incr_decr_threshold.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/acl_tessellated_incr_lookahead.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/acl_reset_handler.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/acl_lfsr.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/acl_mlab_fifo.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/acl_parameter_assert.svh"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/acl_pop.v"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/hld_memory_depth_quantization_pkg.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/hld_iowr.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/hld_iowr_stall_latency.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/hld_iowr_stall_valid.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/acl_shift_register_no_reset.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/acl_push.v"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/acl_token_fifo_counter.v"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/acl_pipeline.v"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/acl_dspba_buffer.v"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/acl_enable_sink.v"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/hld_iord.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/hld_iord_stall_latency.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/hld_iord_stall_valid.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/hld_loop_profiler.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/hld_sim_latency_tracker.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/acl_stream_fifo.v"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_function_wrapper.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_function.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_bb_B0_runOnce.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_B0_runOnce_branch.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_B0_runOnce_merge.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_bb_B0_runOnce_stall_region.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_B0_runOnce_merge_reg.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_iowr_bl_call_ihc_1_unn0000101_sdf_abc_actor100.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_iowr_bl_call_ihc_2_unn0000100_sdf_abc_actor100.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_iowr_bl_call_ihc_unnam0000102_sdf_abc_actor100.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_pop_token_i10000pop_sdf_abc_actor100.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_pop_token_i10000sdf_abc_actor100_reg.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_push_token_i0000ush_sdf_abc_actor100.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_push_token_i0000sdf_abc_actor104_reg.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_bb_B1_start.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_B1_start_branch.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_B1_start_merge.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_bb_B1_start_stall_region.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_B1_start_merge_reg.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_iord_bl_call_sdf_abc_a0000105_sdf_abc_actor100.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_iowr_nb_return_sdf_abc0000106_sdf_abc_actor100.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_sfc_s_c0_in_wt_entry_s0000er1_sdf_abc_actor100.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_sfc_exit_s_c0000xit_sdf_abc_actor100.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_sfc_logic_s_c0_in_wt_e0000er1_sdf_abc_actor100.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_pipeline_keep_going_sdf_abc_actor100.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_push_i1_notexitcond_sdf_abc_actor100.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_pipeline_kee0000_sdf_abc_actor101_sr.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_pipeline_kee0000_actor101_valid_fifo.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_bb_B1_start_sr_1.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_ihc_1_function.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_arbiter_iord_s2.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_bb_ihc_1_B0.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_bb_ihc_1_B0_stall_region.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_iord_bl_call_ihc_1_unnamed_ihc_10_ihc_10.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_pop_token_i1_wt_limpop_ihc_10.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_pop_token_i1_wt_limpop_ihc_10_reg.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_push_token_i1_wt_limpush_ihc_10.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_push_token_i1_wt_limpush_ihc_11_reg.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_ihc_1_B0_merge_reg.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_ihc_1_B0_branch.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_ihc_1_B0_merge.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_bb_ihc_1_B1.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_bb_ihc_1_B1_stall_region.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_iord_bl_s2_unnamed_ihc_12_ihc_10.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_dupName_1_reg_26oi0676j686u0qc0pdz.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_iord_bl_s2_unnamed_ihc_13_ihc_10.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_dupName_2_reg_26oi0676j686u0qc0pdz.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_iord_bl_s2_unnamed_ihc_14_ihc_10.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_dupName_3_reg_26oi0676j686u0qc0pdz.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_iord_bl_s2_unnamed_ihc_15_ihc_10.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_dupName_4_reg_26oi0676j686u0qc0pdz.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_iowr_bl_s3_unnamed_ihc_16_ihc_10.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_pop_i1_memdep_phi_pop3_ihc_10.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_pop_i1_memdep_phi_pop3_ihc_13_reg.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_push_i1_memdep_phi_push3_ihc_10.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_push_i1_memdep_phi_push3_ihc_113_reg.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_sfc_s_c0_in_while_body_ihc_1s_c0_enter1_ihc_11.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_sfc_exit_s_c0000hc_1s_c0_exit_ihc_10.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_sfc_logic_s_c0_in_whil0000_1s_c0_enter1_ihc_10.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_pipeline_keep_going_ihc_10.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_push_i1_notexitcond_ihc_10.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_ihc_1_B1_merge_reg.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_ihc_1_B1_branch.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_ihc_1_B1_merge.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_pipeline_keep_going_ihc_12_sr.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_pipeline_kee0000ng_ihc_12_valid_fifo.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_bb_ihc_1_B1_sr_1.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_ihc_2_function.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_arbiter_iowr_s1.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_arbiter_iowr_s2.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_bb_ihc_2_B0.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_bb_ihc_2_B0_stall_region.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_iord_bl_call_ihc_2_unnamed_ihc_20_ihc_20.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_pop_token_i1_wt_limpop_ihc_20.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_pop_token_i1_wt_limpop_ihc_20_reg.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_push_token_i1_wt_limpush_ihc_20.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_push_token_i1_wt_limpush_ihc_21_reg.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_ihc_2_B0_merge_reg.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_ihc_2_B0_branch.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_ihc_2_B0_merge.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_bb_ihc_2_B1.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_bb_ihc_2_B1_stall_region.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_iord_bl_s0_or_41_ihc_20.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_iowr_bl_s1_or_34_ihc_20.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_iowr_bl_s1_unnamed_ihc_22_ihc_20.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_iowr_bl_s1_unnamed_ihc_24_ihc_20.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_iowr_bl_s2_or_19_ihc_20.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_iowr_bl_s2_or_27_ihc_20.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_iowr_bl_s2_unnamed_ihc_23_ihc_20.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_iowr_bl_s2_unnamed_ihc_25_ihc_20.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_iowr_bl_s2_unnamed_ihc_26_ihc_20.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_iowr_bl_s2_unnamed_ihc_27_ihc_20.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_pop_i1_memdep_phi42_pop5_ihc_20.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_pop_i1_memdep_phi42_pop5_ihc_24_reg.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_pop_i1_memdep_phi_pop4_ihc_20.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_pop_i1_memdep_phi_pop4_ihc_23_reg.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_push_i1_memdep_phi42_push5_ihc_20.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_push_i1_memd000042_push5_ihc_221_reg.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_push_i1_memdep_phi_push4_ihc_20.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_push_i1_memdep_phi_push4_ihc_218_reg.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_sfc_s_c0_in_while_body_ihc_2s_c0_enter1_ihc_21.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_sfc_exit_s_c0000hc_2s_c0_exit_ihc_20.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_sfc_logic_s_c0_in_whil0000_2s_c0_enter1_ihc_20.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_pipeline_keep_going_ihc_20.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_push_i1_notexitcond_ihc_20.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_sfc_s_c1_in_while_body_ihc_2s_c1_enter_ihc_26.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_sfc_exit_s_c0000hc_2s_c1_exit_ihc_20.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_sfc_logic_s_c1_in_whil0000c_2s_c1_enter_ihc_20.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_pop_i32_zz200000static_0_pop3_ihc_20.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_push_i32_zz20000tatic_0_push3_ihc_20.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_ihc_2_B1_merge_reg.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_ihc_2_B1_branch.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_ihc_2_B1_merge.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_pipeline_keep_going_ihc_22_sr.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_pipeline_kee0000ng_ihc_22_valid_fifo.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_bb_ihc_2_B1_sr_1.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_ihc_function.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_arbiter_iord_s1.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_arbiter_iowr_s4.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_bb_ihc_B0.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_bb_ihc_B0_stall_region.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_iord_bl_call_ihc_unnamed_ihc0_ihc0.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_pop_token_i1_wt_limpop_ihc0.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_pop_token_i1_wt_limpop_ihc0_reg.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_push_token_i1_wt_limpush_ihc0.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_push_token_i1_wt_limpush_ihc1_reg.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_ihc_B0_merge_reg.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_ihc_B0_branch.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_ihc_B0_merge.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_bb_ihc_B1.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_bb_ihc_B1_stall_region.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_iord_bl_s1_unnamed_ihc3_ihc0.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_reg_rsrvd_fix.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_iord_bl_s1_unnamed_ihc4_ihc0.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_dupName_0_reg_26oi0676j686u0qc0pdz.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_iord_bl_s3_unnamed_ihc2_ihc0.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_iowr_bl_s4_unnamed_ihc5_ihc0.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_iowr_bl_s4_unnamed_ihc6_ihc0.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_pop_i1_memdep_phi2_pop4_ihc0.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_pop_i1_memdep_phi2_pop4_ihc5_reg.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_pop_i1_memdep_phi_pop3_ihc0.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_pop_i1_memdep_phi_pop3_ihc4_reg.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_push_i1_memdep_phi2_push4_ihc0.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_push_i1_memdep_phi2_push4_ihc13_reg.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_push_i1_memdep_phi_push3_ihc0.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_push_i1_memdep_phi_push3_ihc11_reg.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_sfc_s_c0_in_while_body_ihcs_c0_enter1_ihc1.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_sfc_exit_s_c0000dy_ihcs_c0_exit_ihc0.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_sfc_logic_s_c0_in_whil0000_ihcs_c0_enter1_ihc0.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_pipeline_keep_going_ihc0.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_push_i1_notexitcond_ihc0.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_ihc_B1_merge_reg.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_ihc_B1_branch.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_ihc_B1_merge.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_pipeline_keep_going_ihc2_sr.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_i_llvm_fpga_pipeline_keep_going_ihc2_valid_fifo.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_bb_ihc_B1_sr_1.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_iord_bl_s0_fifo_inst.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_iowr_bl_s3_fifo_inst.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_iowr_s1_fifo_inst.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_iowr_s2_fifo_inst.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_iowr_s4_fifo_inst.sv"]
+set_global_assignment -library "SDF_ABC_ACTOR10qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/SDF_ABC_ACTOR10_internal.v"]
+
+set_global_assignment -entity "altera_reset_controller" -library "SDF_ABC_ACTOR10qsys" -name IP_TOOL_NAME "altera_reset_controller"
+set_global_assignment -entity "altera_reset_controller" -library "SDF_ABC_ACTOR10qsys" -name IP_TOOL_VERSION "22.1"
+set_global_assignment -entity "altera_reset_controller" -library "SDF_ABC_ACTOR10qsys" -name IP_TOOL_ENV "Qsys"

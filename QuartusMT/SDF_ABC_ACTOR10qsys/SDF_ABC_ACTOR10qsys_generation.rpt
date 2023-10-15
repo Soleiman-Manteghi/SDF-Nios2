@@ -1,0 +1,41 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate /home/soleimanmanteghi/intelFPGA/SDFProject/Repository_SDF_with_nios_imp/QuartusMT/SDF_ABC_ACTOR10qsys.qsys --block-symbol-file --output-directory=/home/soleimanmanteghi/intelFPGA/SDFProject/Repository_SDF_with_nios_imp/QuartusMT/SDF_ABC_ACTOR10qsys --family="Cyclone V" --part=5CSEBA6U23I7
+Progress: Loading QuartusMT/SDF_ABC_ACTOR10qsys.qsys
+Progress: Reading input file
+Progress: Adding ACTOR10_0 [SDF_ABC_ACTOR10 1.0]
+Progress: Reading input file
+Progress: Adding SDF_ABC_ACTOR10_internal_inst [SDF_ABC_ACTOR10_internal 1.0]
+Progress: Parameterizing module SDF_ABC_ACTOR10_internal_inst
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Progress: Parameterizing module ACTOR10_0
+Progress: Adding clk_0 [clock_source 22.1]
+Progress: Parameterizing module clk_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate /home/soleimanmanteghi/intelFPGA/SDFProject/Repository_SDF_with_nios_imp/QuartusMT/SDF_ABC_ACTOR10qsys.qsys --synthesis=VERILOG --output-directory=/home/soleimanmanteghi/intelFPGA/SDFProject/Repository_SDF_with_nios_imp/QuartusMT/SDF_ABC_ACTOR10qsys/synthesis --family="Cyclone V" --part=5CSEBA6U23I7
+Progress: Loading QuartusMT/SDF_ABC_ACTOR10qsys.qsys
+Progress: Reading input file
+Progress: Adding ACTOR10_0 [SDF_ABC_ACTOR10 1.0]
+Progress: Parameterizing module ACTOR10_0
+Progress: Adding clk_0 [clock_source 22.1]
+Progress: Parameterizing module clk_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: SDF_ABC_ACTOR10qsys: Generating SDF_ABC_ACTOR10qsys "SDF_ABC_ACTOR10qsys" for QUARTUS_SYNTH
+Info: ACTOR10_0: "SDF_ABC_ACTOR10qsys" instantiated SDF_ABC_ACTOR10 "ACTOR10_0"
+Info: rst_controller: "SDF_ABC_ACTOR10qsys" instantiated altera_reset_controller "rst_controller"
+Info: SDF_ABC_ACTOR10_internal_inst: "ACTOR10_0" instantiated SDF_ABC_ACTOR10_internal "SDF_ABC_ACTOR10_internal_inst"
+Info: SDF_ABC_ACTOR10qsys: Done "SDF_ABC_ACTOR10qsys" with 4 modules, 214 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

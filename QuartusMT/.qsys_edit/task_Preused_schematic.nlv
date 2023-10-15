@@ -1,0 +1,24 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst task_Preused.clk_0 -pg 1 -lvl 1 -y 90
+preplace inst task_Preused.Ptemplates_0 -pg 1 -lvl 3 -y 180
+preplace inst task_Preused.PWappers_0 -pg 1 -lvl 2 -y 70
+preplace inst task_Preused -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst task_Preused.Pgeneralized_0.Pgeneralized_internal_inst -pg 1
+preplace inst task_Preused.Pgeneralized_0 -pg 1 -lvl 4 -y 250
+preplace inst task_Preused.PWappers_0.PWappers_internal_inst -pg 1
+preplace inst task_Preused.Ptemplates_0.Ptemplates_internal_inst -pg 1
+preplace netloc EXPORT<net_container>task_Preused</net_container>(SLAVE)task_Preused.pwappers_0_s0,(SLAVE)PWappers_0.s0) 1 0 2 NJ 160 NJ
+preplace netloc EXPORT<net_container>task_Preused</net_container>(SLAVE)Pgeneralized_0.return,(SLAVE)task_Preused.pgeneralized_0_return) 1 0 4 NJ 380 NJ 380 NJ 380 NJ
+preplace netloc EXPORT<net_container>task_Preused</net_container>(SLAVE)task_Preused.pwappers_0_call,(SLAVE)PWappers_0.call) 1 0 2 NJ 80 NJ
+preplace netloc POINT_TO_POINT<net_container>task_Preused</net_container>(SLAVE)Ptemplates_0.s0,(MASTER)PWappers_0.s3) 1 2 1 570
+preplace netloc EXPORT<net_container>task_Preused</net_container>(SLAVE)task_Preused.reset,(SLAVE)clk_0.clk_in_reset) 1 0 1 NJ
+preplace netloc POINT_TO_POINT<net_container>task_Preused</net_container>(SLAVE)Pgeneralized_0.call,(SLAVE)Ptemplates_0.return) 1 2 2 610 320 NJ
+preplace netloc EXPORT<net_container>task_Preused</net_container>(SLAVE)clk_0.clk_in,(SLAVE)task_Preused.clk) 1 0 1 NJ
+preplace netloc FAN_OUT<net_container>task_Preused</net_container>(SLAVE)Pgeneralized_0.reset,(SLAVE)Ptemplates_0.reset,(SLAVE)PWappers_0.reset,(MASTER)clk_0.clk_reset) 1 1 3 350 210 550 360 NJ
+preplace netloc POINT_TO_POINT<net_container>task_Preused</net_container>(SLAVE)Pgeneralized_0.s0,(MASTER)Ptemplates_0.s3) 1 3 1 810
+preplace netloc EXPORT<net_container>task_Preused</net_container>(MASTER)Pgeneralized_0.s3,(MASTER)task_Preused.pgeneralized_0_s3) 1 4 1 N
+preplace netloc FAN_OUT<net_container>task_Preused</net_container>(SLAVE)Pgeneralized_0.clock,(SLAVE)Ptemplates_0.clock,(MASTER)clk_0.clk,(SLAVE)PWappers_0.clock) 1 1 3 350 30 590 340 NJ
+preplace netloc POINT_TO_POINT<net_container>task_Preused</net_container>(SLAVE)Ptemplates_0.call,(SLAVE)PWappers_0.return) 1 1 2 370 230 NJ
+levelinfo -pg 1 0 140 1150
+levelinfo -hier task_Preused 150 180 430 670 910 1010
