@@ -79,6 +79,7 @@ set_location_assignment PIN_AA24 -to pin_name7
 set_location_assignment PIN_W15 -to pin_name8
 set_global_assignment -name ENABLE_SIGNALTAP ON
 set_global_assignment -name USE_SIGNALTAP_FILE output_files/stp1.stp
+set_global_assignment -name QSYS_FILE nios_systemqsys.qsys
 set_global_assignment -name QSYS_FILE SDF_ABC_ACTOR10qsys.qsys
 set_global_assignment -name QSYS_FILE SDF_ABC_ACTORqsys.qsys
 set_global_assignment -name BDF_FILE FB_SDF.bdf

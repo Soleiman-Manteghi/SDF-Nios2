@@ -1,0 +1,23 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst nios_systemqsys.jtag_uart_0 -pg 1 -lvl 5 -y 110
+preplace inst nios_systemqsys.onchip_memory2_0 -pg 1 -lvl 5 -y 30
+preplace inst nios_systemqsys.nios2_gen2_0.reset_bridge -pg 1
+preplace inst nios_systemqsys.nios2_gen2_0.clock_bridge -pg 1
+preplace inst nios_systemqsys.ACTOR_0.SDF_ABC_ACTOR_internal_inst -pg 1
+preplace inst nios_systemqsys.ACTOR_0 -pg 1 -lvl 4 -y 160
+preplace inst nios_systemqsys.niose_input -pg 1 -lvl 5 -y 210
+preplace inst nios_systemqsys -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst nios_systemqsys.nios2_gen2_0 -pg 1 -lvl 1 -y 220
+preplace inst nios_systemqsys.clk_0 -pg 1 -lvl 2 -y 90
+preplace inst nios_systemqsys.nios2_gen2_0.cpu -pg 1
+preplace inst nios_systemqsys.nios_output -pg 1 -lvl 3 -y 90
+preplace netloc INTERCONNECT<net_container>nios_systemqsys</net_container>(SLAVE)jtag_uart_0.avalon_jtag_slave,(SLAVE)nios2_gen2_0.debug_mem_slave,(MASTER)nios2_gen2_0.data_master,(SLAVE)onchip_memory2_0.s1,(SLAVE)niose_input.out,(MASTER)nios2_gen2_0.instruction_master,(SLAVE)niose_input.in_csr,(SLAVE)nios_output.in,(SLAVE)nios_output.in_csr) 1 0 5 100 180 460 220 700 260 NJ 260 1150
+preplace netloc POINT_TO_POINT<net_container>nios_systemqsys</net_container>(MASTER)nios_output.out,(SLAVE)ACTOR_0.s0) 1 3 1 890
+preplace netloc POINT_TO_POINT<net_container>nios_systemqsys</net_container>(MASTER)ACTOR_0.s4,(SLAVE)niose_input.in) 1 4 1 1070
+preplace netloc FAN_OUT<net_container>nios_systemqsys</net_container>(SLAVE)onchip_memory2_0.clk1,(SLAVE)nios_output.clk_in,(SLAVE)nios2_gen2_0.clk,(SLAVE)jtag_uart_0.clk,(SLAVE)ACTOR_0.clock,(MASTER)clk_0.clk,(SLAVE)niose_input.clk_in) 1 0 5 80 160 NJ 160 720 220 870 120 1130
+preplace netloc EXPORT<net_container>nios_systemqsys</net_container>(SLAVE)clk_0.clk_in,(SLAVE)nios_systemqsys.clk) 1 0 2 NJ 100 NJ
+preplace netloc INTERCONNECT<net_container>nios_systemqsys</net_container>(SLAVE)onchip_memory2_0.reset1,(MASTER)nios2_gen2_0.debug_reset_request,(SLAVE)niose_input.reset_in,(SLAVE)jtag_uart_0.reset,(SLAVE)clk_0.clk_in_reset,(SLAVE)nios_output.reset_in,(SLAVE)nios2_gen2_0.reset,(SLAVE)ACTOR_0.reset,(MASTER)clk_0.clk_reset) 1 0 5 60 140 480 240 680 240 910 300 1090
+preplace netloc FAN_OUT<net_container>nios_systemqsys</net_container>(MASTER)nios2_gen2_0.irq,(SLAVE)niose_input.in_irq,(SLAVE)nios_output.in_irq,(SLAVE)jtag_uart_0.irq) 1 1 4 NJ 310 740 280 NJ 280 1110
+levelinfo -pg 1 0 30 1350
+levelinfo -hier nios_systemqsys 40 220 510 770 970 1200 1340

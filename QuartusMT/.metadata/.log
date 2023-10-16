@@ -1,0 +1,224 @@
+!SESSION 2023-10-16 03:46:48.587 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=11.0.19
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/soleimanmanteghi/intelFPGA/22.1std/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/soleimanmanteghi/intelFPGA/22.1std/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2023-10-16 03:47:15.738
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: dev.eclipse.org: Temporary failure in name resolution. ; version: 1.100.0.v20160217-0435
+!STACK 0
+java.net.UnknownHostException: dev.eclipse.org: Temporary failure in name resolution
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:930)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1543)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:848)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1386)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1307)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:102)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.request(IO.java:205)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:68)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-10-16 03:48:34.803
+!MESSAGE Indexed 'Nios2_Actor_bsp' (80 sources, 188 headers) in 1.61 sec: 6,158 declarations; 9,519 references; 43 unresolved inclusions; 4 syntax errors; 88 unresolved names (0.56%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-10-16 03:48:35.396
+!MESSAGE Indexed 'Nios2_Actor' (1 sources, 32 headers) in 0.048 sec: 1,050 declarations; 1,622 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-16 04:04:52.725
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-2]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-16 04:04:54.397
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-2]' --device=2 --instance=0 --go /home/soleimanmanteghi/intelFPGA/SDFProject/Repository_SDF_with_nios_imp/QuartusMT/software/Nios2_Actor/Nios2_Actor.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-16 04:06:14.021
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-2]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-16 04:06:14.116
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-2]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-16 04:06:15.804
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-2]' --device=2 --instance=0 --go /home/soleimanmanteghi/intelFPGA/SDFProject/Repository_SDF_with_nios_imp/QuartusMT/software/Nios2_Actor/Nios2_Actor.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-16 04:07:03.450
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-2]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-16 04:07:05.129
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-2]' --device=2 --instance=0 --go /home/soleimanmanteghi/intelFPGA/SDFProject/Repository_SDF_with_nios_imp/QuartusMT/software/Nios2_Actor/Nios2_Actor.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-16 04:08:25.005
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-2]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-16 04:08:26.685
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-2]' --device=2 --instance=0 --go /home/soleimanmanteghi/intelFPGA/SDFProject/Repository_SDF_with_nios_imp/QuartusMT/software/Nios2_Actor/Nios2_Actor.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-16 04:08:37.778
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-2]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-16 04:08:39.453
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-2]' --device=2 --instance=0 --go /home/soleimanmanteghi/intelFPGA/SDFProject/Repository_SDF_with_nios_imp/QuartusMT/software/Nios2_Actor/Nios2_Actor.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-16 04:09:03.842
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-2]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-16 04:09:03.924
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-2]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-16 04:09:05.594
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-2]' --device=2 --instance=0 --go /home/soleimanmanteghi/intelFPGA/SDFProject/Repository_SDF_with_nios_imp/QuartusMT/software/Nios2_Actor/Nios2_Actor.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-16 04:09:23.716
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-2]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-16 04:09:25.383
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-2]' --device=2 --instance=0 --go /home/soleimanmanteghi/intelFPGA/SDFProject/Repository_SDF_with_nios_imp/QuartusMT/software/Nios2_Actor/Nios2_Actor.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-16 04:10:02.003
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-2]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-16 04:10:03.674
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-2]' --device=2 --instance=0 --go /home/soleimanmanteghi/intelFPGA/SDFProject/Repository_SDF_with_nios_imp/QuartusMT/software/Nios2_Actor/Nios2_Actor.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-16 04:10:25.493
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-2]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-16 04:10:25.569
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-2]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-16 04:10:27.236
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-2]' --device=2 --instance=0 --go /home/soleimanmanteghi/intelFPGA/SDFProject/Repository_SDF_with_nios_imp/QuartusMT/software/Nios2_Actor/Nios2_Actor.elf]
+!SESSION 2023-10-16 04:10:43.830 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=11.0.19
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/soleimanmanteghi/intelFPGA/22.1std/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/soleimanmanteghi/intelFPGA/22.1std/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2023-10-16 04:10:52.594
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: dev.eclipse.org: Temporary failure in name resolution. ; version: 1.100.0.v20160217-0435
+!STACK 0
+java.net.UnknownHostException: dev.eclipse.org: Temporary failure in name resolution
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:930)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1543)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:848)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1386)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1307)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:102)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.request(IO.java:205)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:68)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-10-16 04:11:49.990
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-10-16 04:11:50.008
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-16 04:13:21.513
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-2]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-10-16 04:13:22.627
+!MESSAGE Failed Executing: [nios2-download, '--cable=DE-SoC on localhost [3-2]', --device=2, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-16 04:13:22.664
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-2]' --device=2 --instance=0 --go --accept-bad-sysid /home/soleimanmanteghi/intelFPGA/SDFProject/Repository_SDF_with_nios_imp/QuartusMT/software/Nios2_Actor/Nios2_Actor.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-16 04:13:44.827
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-2]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-16 04:13:44.915
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-2]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-10-16 04:13:46.032
+!MESSAGE Failed Executing: [nios2-download, '--cable=DE-SoC on localhost [3-2]', --device=2, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-16 04:13:46.066
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-2]' --device=2 --instance=0 --go --accept-bad-sysid /home/soleimanmanteghi/intelFPGA/SDFProject/Repository_SDF_with_nios_imp/QuartusMT/software/Nios2_Actor/Nios2_Actor.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-16 04:14:24.197
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-2]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-16 04:14:24.299
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-2]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-10-16 04:14:25.417
+!MESSAGE Failed Executing: [nios2-download, '--cable=DE-SoC on localhost [3-2]', --device=2, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-16 04:14:25.451
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-2]' --device=2 --instance=0 --go --accept-bad-sysid /home/soleimanmanteghi/intelFPGA/SDFProject/Repository_SDF_with_nios_imp/QuartusMT/software/Nios2_Actor/Nios2_Actor.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-16 04:14:39.962
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-2]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-10-16 04:14:41.073
+!MESSAGE Failed Executing: [nios2-download, '--cable=DE-SoC on localhost [3-2]', --device=2, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-16 04:14:41.108
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-2]' --device=2 --instance=0 --go --accept-bad-sysid /home/soleimanmanteghi/intelFPGA/SDFProject/Repository_SDF_with_nios_imp/QuartusMT/software/Nios2_Actor/Nios2_Actor.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-16 04:15:19.057
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-2]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-10-16 04:15:20.170
+!MESSAGE Failed Executing: [nios2-download, '--cable=DE-SoC on localhost [3-2]', --device=2, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-16 04:15:20.206
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-2]' --device=2 --instance=0 --go --accept-bad-sysid /home/soleimanmanteghi/intelFPGA/SDFProject/Repository_SDF_with_nios_imp/QuartusMT/software/Nios2_Actor/Nios2_Actor.elf]

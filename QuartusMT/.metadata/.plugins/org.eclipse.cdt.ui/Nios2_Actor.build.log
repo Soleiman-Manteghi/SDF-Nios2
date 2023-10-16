@@ -1,0 +1,9 @@
+04:15:18 **** Incremental Build of configuration Nios II for project Nios2_Actor ****
+make all 
+Info: Building ../Nios2_Actor_bsp/
+make --no-print-directory -C ../Nios2_Actor_bsp/
+[BSP build complete]
+[Nios2_Actor build complete]
+
+04:15:18 Build Finished (took 164ms)
+

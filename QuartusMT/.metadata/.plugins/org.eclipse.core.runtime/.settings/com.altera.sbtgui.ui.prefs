@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+newSoftwareExampleWizardPage.defaultLocation=/home/soleimanmanteghi/intelFPGA/SDFProject/Repository_SDF_with_nios_imp/QuartusMT/software/Nios2_Actor
+newSoftwareExampleWizardPage.sopcinfoFile=/home/soleimanmanteghi/intelFPGA/SDFProject/Repository_SDF_with_nios_imp/QuartusMT/nios_systemqsys.sopcinfo
+newSoftwareExampleWizardPage2.newBspLocation=/home/soleimanmanteghi/intelFPGA/SDFProject/Repository_SDF_with_nios_imp/QuartusMT/software/Nios2_Actor_bsp
